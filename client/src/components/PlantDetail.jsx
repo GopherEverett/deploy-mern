@@ -21,12 +21,12 @@ const PlantDetail = () => {
 
     return (
         <div id="plant-card">
-            <Card style={{ width: '50rem' }} className="bg-dark text-white">
+            <Card style={{ width: '50rem' }} className="bg-dark text-white" border="success">
                 <Card.Img src={plantDetails.image} alt="plant" />
                 <Card.ImgOverlay>
-                    <Card.Title>{plantDetails.name}</Card.Title>
-                    <Card.Text>{plantDetails.description}</Card.Text>
+                    <Card.Title style={{ fontSize: '3rem' }}>{plantDetails.name}</Card.Title>
                 </Card.ImgOverlay>
+                    <Card.Text className='mt-auto' style={{ fontSize: '1.7rem' }}>{plantDetails.description}</Card.Text>
             </Card>
         </div>
     )
