@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.App {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#plant_cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navs {
+  display: flex;
+  min-height: 5rem;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navs li {
+  padding: 2rem;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+#name {
+  width: 60%;
+}
+
+#description {
+  width: 60%;
+}
+
+#image {
+  width: 60%;
+}
+
+#add-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#plant-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
