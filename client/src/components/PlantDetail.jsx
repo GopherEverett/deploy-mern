@@ -16,6 +16,7 @@ const PlantDetail = () => {
 
     useEffect(() => {
         fetchDetails()
+        // eslint-disable-next-line
     }, [id])
 
 
@@ -26,7 +27,7 @@ const PlantDetail = () => {
                 <Card.ImgOverlay>
                     <Card.Title style={{ fontSize: '3rem' }}>{plantDetails.name}</Card.Title>
                 </Card.ImgOverlay>
-                    <Card.Text className='mt-auto' style={{ fontSize: '1.7rem' }}>{plantDetails.description}</Card.Text>
+                <Card.Text className='mt-auto' style={{ fontSize: '1.7rem' }}>{plantDetails.description}</Card.Text>
             </Card>
         </div>
     )

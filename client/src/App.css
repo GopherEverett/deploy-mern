@@ -55,6 +55,10 @@ ul {
   justify-content: center;
 }
 
+.nav-link:hover {
+  color: greenyellow !important;
+}
+
 
 
 
