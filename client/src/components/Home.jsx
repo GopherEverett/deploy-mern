@@ -20,7 +20,7 @@ const Home = () => {
         <div  id="plant-cards">
             {plants?.map((plant) => (
                 <div key={plant._id}>
-                <Link to={`/${plant._id}`} className="nav-link">
+                <Link to={`/${plant._id}`} state={{plant}} className="nav-link">
                         <h3>{plant.name}</h3>
                 </Link>
                 </div>
